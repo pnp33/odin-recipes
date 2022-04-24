@@ -3,16 +3,31 @@ body {
     flex-direction: column;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     flex: 1;
+    padding: 0px 100px;
+}
+
+.placeholder-image {
+    width: 300px;
+    height: 200px;
+}
+
+.hero-main-text {
+    color: #e5e7eb;
+}
+
+.hero-secondary-text {
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 h1 {
     font-size: 43px;
-    color: #f9faf8;
+    color: #1f2937;
 }
 
 p {
     font-size: 18px;
-    color: #e5e7eb;
+    color: #1f2937;
 }
 
 .header {
@@ -62,4 +77,56 @@ ul {
     display: flex;
     background-color: #3d588e;
     padding: 56px;
+}
+
+.italic {
+    font: 18px;
+    color: #1f2937;
+}
+
+.image2 {
+    width: 200px;
+    height: 100px;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+}
+
+.body2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.body3 {
+    display: flex;
+    flex-direction: column;
+    padding: 72px;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.body4 {
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    margin: 100px;
+    padding: 16px;
+}
+
+.container4 {
+    display: flex;
+    flex-direction: column;
 }
